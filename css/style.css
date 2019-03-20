@@ -1,0 +1,33 @@
+.center {
+  font-family: sans-serif;
+  padding: 50px 0;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between; }
+
+.item {
+  background-color: #F1425D;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  padding: 50px; }
+  .item-i2 {
+    height: 250px; }
+  .item-i4 {
+    align-self: flex-end; }
+  .item-i1 {
+    flex: 0 1 20%; }
+  .item-i5 {
+    flex: 1; }
