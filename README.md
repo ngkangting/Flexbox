@@ -1,8 +1,12 @@
 # Introduction to Flexbox
 
-CSS Grid Layout is the most powerful layout system available in CSS. It brings a two-dimensional layout tool to the web, with the ability to place items in rows and columns. With this powerful layout system available in CSS, it can replace float layouts, using less, more readable, and logical HTML and CSS.
+The Flexible Box Module, usually referred to as Flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. Thus, providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic.
 
-To work with CSS Grid Layout, we need to apply CSS rules both to a parent element (which becomes the Grid Container) and to that element's children (which becomes the Grid Items).
+The main idea behind the Flexbox layout is to give the container the ability to alter its items' width/height in order to best fill the available space. A Flex container expands items to fill available free space, or shrinks them to prevent overflow in the container.
+
+Most importantly, the Flexbox layout is direction-agnostic as opposed to the regular layouts of block, which is vertically-based, and inline, which is horizontally-based, as they lack the flexibility to support large or complex applications when it comes to orientation changing, resizing, stretching, shrinking on different devices.
+
+With this powerful layout system available in CSS, it can replace float layouts, using less, more readable, and logical HTML and CSS.
 
 ## Flexbox Terminology
 
