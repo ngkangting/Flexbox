@@ -44,12 +44,12 @@ Position Flex item along the Cross Axis (Vertically).
 
 - **Order (Flex Item)**
 ```
-Arrange Flex item in order. Higher number positions Flex item to the end.
+Arrange Flex item in order. A higher number positions the Flex item to the end, and vice-versa.
 ```
 
 - **Flex (Flex Item)**
 ```
-Grow, Shrink and Set the width of the Flex item.
+Grow, Shrink and Setting the width of the Flex item.
 ```
 
 - **Flex Wrap (Flex Items)**
