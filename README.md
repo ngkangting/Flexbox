@@ -6,11 +6,11 @@ The main idea behind the Flexbox layout is to give the container the ability to 
 
 Most importantly, the Flexbox layout is direction-agnostic as opposed to the regular layouts of block, which is vertically-based, and inline, which is horizontally-based, as they lack the flexibility to support large or complex applications when it comes to orientation changing, resizing, stretching, shrinking on different devices.
 
-With this powerful layout system available in CSS, it can replace float layouts, using less, more readable, and logical HTML and CSS.
+With this powerful layout system available in CSS, it can replace float layouts, using less, more readable, and logical HTML and CSS for one direction layouts.
 
 ## Flexbox Terminology
 
-Before diving into the concepts of CSS Grid, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding the CSS Grid Terminology.
+Before diving into the concepts of Flexbox, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding Flexbox Terminologies.
 
 - **Grid Container**
 ```
