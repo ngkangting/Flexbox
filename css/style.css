@@ -8,6 +8,126 @@
   padding: 0;
   box-sizing: border-box; }
 
+.container1 {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.item1 {
+  background-color: #F1425D;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  padding: 50px; }
+
+.container2 {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.item2 {
+  background-color: #F1425D;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  padding: 50px; }
+  .item2-i2 {
+    height: 200px; }
+
+.container3 {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.item3 {
+  background-color: #F1425D;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  padding: 50px; }
+
+.container4 {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.item4 {
+  background-color: #F1425D;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  padding: 50px; }
+  .item4-i2 {
+    height: 200px; }
+  .item4-i4 {
+    align-self: flex-end; }
+
+.container5 {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.item5 {
+  background-color: #F1425D;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  padding: 50px; }
+  .item5-i5 {
+    order: -1; }
+  .item5-i1 {
+    order: 1; }
+
+.container6 {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.item6 {
+  background-color: #F1425D;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  padding: 50px;
+  flex: 1; }
+  .item6-i2 {
+    flex: 0 0 20%; }
+  .item6-i4 {
+    flex: 5; }
+
+.container7 {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.item7 {
+  background-color: #F1425D;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+  padding: 50px; }
+
 .container {
   background-color: #ccc;
   padding: 10px;
