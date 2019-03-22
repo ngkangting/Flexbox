@@ -6,65 +6,25 @@ The main idea behind the Flexbox layout is to give the container the ability to 
 
 Most importantly, the Flexbox layout is direction-agnostic as opposed to the regular layouts of block, which is vertically-based, and inline, which is horizontally-based, as they lack the flexibility to support large or complex applications when it comes to orientation changing, resizing, stretching, shrinking on different devices.
 
-With this powerful layout system available in CSS, it can replace float layouts, using less, more readable, and logical HTML and CSS for one direction layouts.
+With this powerful layout system available in CSS, it can replace float layouts, using less, more readable, and logical HTML and CSS for a single-direction layout concept.
 
 ## Flexbox Terminology
 
 Before diving into the concepts of Flexbox, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding Flexbox Terminologies.
 
-- **Grid Container**
+- **Flex Container**
 ```
-Parent element that holds the entire CSS Grid.
-```
-
-- **Grid Item**
-```
-Element that is the direct child of the Grid Container.
+Parent element that holds the entire Flexbox.
 ```
 
-- **Grid Line**
+- **Flex Item**
 ```
-The horizontal and vertical lines that divides and separate the Grid into rows and columns.
-```
-
-- **Gutter**
-```
-The space between the rows and columns in a Grid.
+Element that is the direct child of the Flexbox Container.
 ```
 
-- **Grid Cell**
+- **Flex Direction**
 ```
-The space between two adjacent row and two adjacent column Grid lines. To sum up, it is a single unit of the Grid.
-```
-
-- **Grid Track**
-```
-The space between two adjacent Grid lines. This space can be horizontal or vertical.
-```
-
-- **Grid Row**
-```
-A horizontal track of a Grid.
-```
-
-- **Grid Column**
-```
-A vertical track of a Grid.
-```
-
-- **Grid Area**
-```
-A rectangular space surrounded by four Grid lines. A Grid area can contain any number of Grid cells.
-```
-
-- **Explicit Grid**
-```
-Grid that are explicitly defined by template rows and template columns.
-```
-
-- **Implicit Grid**
-```
-Grid that are not defined by template rows and template columns.
+Direction of Flex items that are placed in the Flex container
 ```
 
 ## Flexbox Properties
