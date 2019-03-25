@@ -10,35 +10,27 @@
   box-sizing: border-box;
 }
 
-
-
-
-
 .container1 {
   background-color: #ccc;
   padding: 10px;
-  
+
   display: flex; //or inline-flex
   flex-direction: row; // row-reverse / column / column-reverse
   justify-content: center; //space-between / space-around / space-evenly flex-end
 }
 
 .item1 {
-  background-color: #F1425D;
+  background-color: #f1425d;
   margin: 30px;
   color: #fff;
   font-size: 40px;
   padding: 50px;
 }
 
-
-
-
-
 .container2 {
   background-color: #ccc;
   padding: 10px;
-  
+
   display: flex; //or inline-flex
   flex-direction: row; // row-reverse / column / column-reverse
   justify-content: center; //space-between / space-around / space-evenly flex-end
@@ -47,7 +39,7 @@
 }
 
 .item2 {
-  background-color: #F1425D;
+  background-color: #f1425d;
   margin: 30px;
   color: #fff;
   font-size: 40px;
@@ -58,14 +50,10 @@
   }
 }
 
-
-
-
-
 .container3 {
   background-color: #ccc;
   padding: 10px;
-  
+
   display: flex; //or inline-flex
   flex-direction: column; // row-reverse / column / column-reverse
   justify-content: center; //space-between / space-around / space-evenly flex-end
@@ -74,21 +62,17 @@
 }
 
 .item3 {
-  background-color: #F1425D;
+  background-color: #f1425d;
   margin: 30px;
   color: #fff;
   font-size: 40px;
   padding: 50px;
 }
 
-
-
-
-
 .container4 {
   background-color: #ccc;
   padding: 10px;
-  
+
   display: flex; //or inline-flex
   flex-direction: row; // row-reverse / column / column-reverse
   justify-content: center; //space-between / space-around / space-evenly flex-end
@@ -97,7 +81,7 @@
 }
 
 .item4 {
-  background-color: #F1425D;
+  background-color: #f1425d;
   margin: 30px;
   color: #fff;
   font-size: 40px;
@@ -112,14 +96,10 @@
   }
 }
 
-
-
-
-
 .container5 {
   background-color: #ccc;
   padding: 10px;
-  
+
   display: flex; //or inline-flex
   flex-direction: row; // row-reverse / column / column-reverse
   justify-content: center; //space-between / space-around / space-evenly flex-end
@@ -128,7 +108,7 @@
 }
 
 .item5 {
-  background-color: #F1425D;
+  background-color: #f1425d;
   margin: 30px;
   color: #fff;
   font-size: 40px;
@@ -143,15 +123,10 @@
   }
 }
 
-
-
-
-
-
 .container6 {
   background-color: #ccc;
   padding: 10px;
-  
+
   display: flex; //or inline-flex
   flex-direction: row; // row-reverse / column / column-reverse
   justify-content: center; //space-between / space-around / space-evenly flex-end
@@ -160,7 +135,7 @@
 }
 
 .item6 {
-  background-color: #F1425D;
+  background-color: #f1425d;
   margin: 30px;
   color: #fff;
   font-size: 40px;
@@ -177,14 +152,10 @@
   }
 }
 
-
-
-
-
 .container7 {
   background-color: #ccc;
   padding: 10px;
-  
+
   display: flex; //or inline-flex
   flex-direction: row; // row-reverse / column / column-reverse
   justify-content: center; //space-between / space-around / space-evenly flex-end
@@ -194,42 +165,38 @@
 }
 
 .item7 {
-  background-color: #F1425D;
+  background-color: #f1425d;
   margin: 30px;
   color: #fff;
   font-size: 40px;
   padding: 50px;
 }
 
-
-
-
-
 .container {
   background-color: #ccc;
   padding: 10px;
-  
+
   display: flex; //or inline-flex
   flex-direction: row; // row-reverse / column / column-reverse
-  
+
   // ALONG MAIN AXIS
   justify-content: center; //space-between / space-around / space-evenly flex-end
-  
+
   // ALONG CROSS-AXIS
   //First, set i2 height to 250px
   align-items: center; // center / stretch / flex-end / flex-start / basleine (set size to 60px)
-  
+
   // Copy 5 more items
   //flex-wrap: wrap;
-  
+
   //height: 100vh;
   align-content: space-between;
 }
 
 .item {
   //flex: 1;
-  
-  background-color: #F1425D;
+
+  background-color: #f1425d;
   margin: 30px;
   color: #fff;
   font-size: 40px;
@@ -239,17 +206,17 @@
     height: 250px;
     //font-size: 60px;
   }
-  
+
   &-i4 {
     //order: -1; //Default is 0, so -1 is first, and 1 is last
     align-self: flex-end; //For this, set i2 back to 250px;
   }
-  
+
   &-i1 {
     //flex: 1;
     flex: 0 1 20%; //flex-basis is defualt size before the rest of the space is divided
   }
-  
+
   &-i5 {
     flex: 1; //try higher values
   }
